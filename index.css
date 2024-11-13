@@ -1,0 +1,114 @@
+/* CSS Reset */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#logo {
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 24px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #003363 !important;
+}
+
+nav a{
+	font-family: Montserrat;
+
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-transform: uppercase;
+	color: #003363 !important;
+}
+
+
+#landing {
+	background: linear-gradient(
+	 rgba(0, 30, 35, 0.91),
+	 rgba(0, 0, 0, 0.81)),
+	 url("./image/herobannerbg.jpg");
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+}
+
+#profilepic {
+	height: 500px;
+	border-radius: 30px;
+	border: 3px solid lightgoldenrodyellow;
+}
+
+#base {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 24px;
+	text-underline-position: from-font;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 8px 24px 8px 24px;
+	gap: 8px;
+	border-radius: 5px;
+	opacity: 0px;
+	padding: 15px 24px 15px 24px;
+	background: #003363;
+}
+
+#projects {
+	color: #003363;
+}
+
+#project-button {
+	background: #003363 !important;
+}
+
+#contacts {
+	color: #003363;
+}
+
+#tools {
+	background: linear-gradient(
+	 rgba(0, 60, 65, 0.61),
+	 rgba(0, 0, 0, 0.61)),
+	 url("./image/tools-bg.jpg");
+	 background-repeat: no-repeat;
+	 background-position: bottom-center;
+	 background-size: cover;
+	 background-attachment: fixed;
+}
+
+#col-tools img {
+	height: 120px;
+	width: 120px;
+}
+
+#contactinfo{
+	margin:auto ;
+	padding: 50px;
+	border: 3px solid #003363;
+	border-radius: 10px;
+}
+
+footer {
+	padding : .7rem;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+footer span {
+	margin-left: .5rem;
+	margin-right: .5rem;
+}
+
+#gmap_canvas {
+	height: 70vh;
+	width: 100%;
+}
